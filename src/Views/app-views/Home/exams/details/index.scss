@@ -1,0 +1,46 @@
+.exsDetails {
+  @apply flex flex-col text-center justify-center items-center     text-2xl mb-9;
+
+  .questions-container {
+    @apply max-w-[600px] overflow-x-auto;
+
+    .questions-list {
+      @apply pl-4;
+
+      li {
+        @apply whitespace-nowrap mt-5 overflow-ellipsis;
+      }
+    }
+  }
+
+  .insName {
+    @apply text-4xl mb-10;
+  }
+
+  table {
+    @apply w-[600px] border rounded-lg bg-gray-200 mt-5 text-2xl overflow-hidden shadow-2xl;
+
+    .tags {
+      @apply flex flex-wrap;
+      .tag {
+        @apply bg-blue-300 rounded-lg p-5 w-52 m-3 inline-block relative;
+
+        .cross {
+          @apply absolute top-0 right-0 cursor-pointer w-11 hover:text-white;
+        }
+      }
+    }
+
+    .input {
+      @apply p-10 w-[400px] border-2  border-blue-400 rounded-lg;
+    }
+
+    th,
+    td {
+      @apply border-4 border-solid border-[#ddd]   text-center p-7;
+    }
+    th {
+      @apply bg-[#f2f2f2] font-bold text-center uppercase;
+    }
+  }
+}

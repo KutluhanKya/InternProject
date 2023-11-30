@@ -1,0 +1,7 @@
+.ins {
+  @apply mt-20 grid grid-cols-4 gap-4 m-8 text-center;
+}
+
+.names {
+  @apply bg-indigo-400 text-2xl border-2 p-10 rounded-lg hover:bg-gray-200;
+}

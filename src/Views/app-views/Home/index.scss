@@ -1,0 +1,38 @@
+.home {
+  @apply flex flex-col text-center justify-center items-center text-2xl   mt-20;
+
+  .first {
+    @apply flex flex-col  justify-center text-center items-center mr-5 mt-5;
+
+    .box2 {
+      @apply flex flex-row space-x-11 text-black;
+      .box1 {
+        @apply bg-white w-[400px] h-[200px] flex flex-col shadow-xl  rounded-xl;
+
+        .data {
+          @apply text-4xl text-black flex justify-start text-start ml-3 mt-3;
+
+          .number {
+            @apply ml-3;
+          }
+        }
+
+        .bar {
+          @apply w-14;
+        }
+
+        .inner1 {
+          @apply flex flex-row justify-between;
+
+          .title {
+            @apply m-4 mt-11 text-xl;
+          }
+
+          .dot {
+            @apply text-white m-5 text-2xl;
+          }
+        }
+      }
+    }
+  }
+}

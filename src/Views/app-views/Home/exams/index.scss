@@ -1,0 +1,7 @@
+.exs {
+  @apply grid text-center grid-cols-4 grid-rows-2 gap-4 m-5  mt-20;
+}
+
+.names {
+  @apply bg-indigo-400 text-2xl border-2 p-6 rounded-lg hover:bg-gray-200;
+}

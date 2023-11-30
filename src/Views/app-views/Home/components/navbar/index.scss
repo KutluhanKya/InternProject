@@ -1,0 +1,6 @@
+.navbar {
+  @apply bg-[#d7e1ee] w-full h-24  flex items-center text-2xl justify-between text-center  shadow-lg;
+  .text {
+    @apply ml-28;
+  }
+}

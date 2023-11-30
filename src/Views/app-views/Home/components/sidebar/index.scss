@@ -1,0 +1,17 @@
+.sidebar {
+  @apply bg-[#d7e1ee] border-2 border-gray-300 rounded-xl  fixed top-0 flex flex-col text-start justify-center left-0 w-0 h-screen   transition-all delay-100 ease-in-out z-10;
+}
+.toggle-btn {
+  @apply absolute   p-2 text-black top-5 ml-5 hover:text-black;
+}
+
+.sidebar.open {
+  @apply left-0 w-[250px];
+}
+
+.name {
+  @apply text-black flex flex-row  mt-8  ml-3  text-2xl  delay-75 rounded-lg transition-all p-3  hover:bg-white;
+  .icon-text-spacing {
+    @apply ml-3;
+  }
+}
